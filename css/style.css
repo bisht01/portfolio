@@ -31,7 +31,11 @@ img{width:100%;}
 .space-btwn{justify-content:space-between;}
 .align-center{align-items:center;}
 .text-center{text-align:center;}
-.global-button{background-color:var(--yellow); padding:12px 30px; border-radius:5px; color: var(--);}
+
+/* global-fonts & buttons */
+h1{font-size:80px; font-weight: 700;}
+.global-button{background-color:var(--primary); padding:12px 30px; border-radius:5px; color: var(--white); display: inline-block;}
+
 
 /* start-header */
 .header .nav-bar ul li{padding:0px 15px; text-transform:capitalize; font-size:16px; font-weight:600; text-transform:uppercase; color: var(--white);}
@@ -39,5 +43,5 @@ img{width:100%;}
 
 
 /* .start-banner */
-.image-overlap{ background-image:url(../images/banner.png); background-repeat:no-repeat; background-size:cover;}
-.banner{padding:250px 0px;}
+.image-overlap{ background-image:url(../images/me.jpg); background-repeat:no-repeat; background-size:cover; }
+.banner{padding:200px 0px;}
