@@ -30,5 +30,6 @@ a{text-decoration:none; color:var(--primary)}
 .text-center{text-align:center;}
 
 
+.header .nav-bar ul li{padding:0px 15px;}
 .image-overlap{ background-image:url(../images/banner.png); background-repeat:no-repeat; background-size:cover; }
 .banner{padding:250px 0px;}
